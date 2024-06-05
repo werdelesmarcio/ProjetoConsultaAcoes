@@ -32,5 +32,5 @@ Este assunto a da aula 2.
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/werdelesmarcio/ProjetoConsultaAcoes/tree/main?tab=MIT-1-ov-file)
 
