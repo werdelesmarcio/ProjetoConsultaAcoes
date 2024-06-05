@@ -14,15 +14,10 @@ email_dest = input("Informe o e-mail do destinatário: ")
 dados = _Fin.Ticker(ticker).history(start=dt_inicial, end=dt_final)
 fechamento = dados.Close
 fechamento
-fechamento.plot()
 
 maxima = round(fechamento.max(), 2)
 minima = round(fechamento.min(), 2)
 media = round(fechamento.mean(), 2)
-
-print(maxima)
-print(minima)
-print(media)
 
 destinatario = email_dest
 
@@ -41,10 +36,9 @@ Valor médio: R$ {media}
 Atenciosamente,
 
 consultaB3-bot
-
 """
-# Ações do Bot para acessar o gmail e enviar os emails
 
+# Ações do Bot para acessar o gmail e enviar os emails
 # configurando a pausa de ação do bot
 pyautogui.PAUSE = 5
 
